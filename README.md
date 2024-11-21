@@ -36,16 +36,18 @@ pip install edge-tts nest_asyncio
 Place your text file named article.txt in the root directory of the project.
 
 Run the main script:
+```bash
 python main.py
-
+```
 The audio file article_audio.mp3 will be generated in the same directory.
 
 On Google Colab
 Open Google Colab and upload the project files (main.py and article.txt).
 
 Install the required libraries:
+```bash
 !pip install edge-tts nest_asyncio
-
+```
 Execute the provided code for Colab.
 
 Once the script finishes, download the generated file article_audio.mp3 from Colab.
@@ -53,7 +55,10 @@ Once the script finishes, download the generated file article_audio.mp3 from Col
 Configuration
 You can customize the language and voice by modifying the voice parameter in the script:
 
+```bash
 voice = "es-MX-JorgeNeural"  # Male Latin American Spanish voice
+```
+
 Available Voices
 Some examples include:
 
