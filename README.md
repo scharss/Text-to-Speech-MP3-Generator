@@ -70,9 +70,10 @@ Troubleshooting
 Error: RuntimeError: This event loop is already running
 This error occurs in Google Colab. It is resolved by using the nest_asyncio library, which is included in the script:
 
+```bash
 import nest_asyncio
 nest_asyncio.apply()
-
+```
 
 Error: FileNotFoundError: article.txt
 Ensure the article.txt file exists in the working directory. You can check the files in your current directory with:
